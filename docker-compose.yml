@@ -1,7 +1,7 @@
 version: '3'
 services:
   demo-service:
-    image: microservice-demo-service:0.0.1-SNAPSHOT
+    image: microservice-docker-demo:0.0.1-SNAPSHOT
     ports:
       - 8080:8080
     networks:
